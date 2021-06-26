@@ -8,4 +8,4 @@ The easiest way to deploy this Bot
 ## Credits
 • [Inuka Asith](https://github.com/InukaAsith) for Chatbot Module.
 
-• [Me](https://github.com/Red-Aura) - For Chatbot Inline Module.
+• [Me](https://github.com/Moezilla) - For Chatbot Inline Module.
