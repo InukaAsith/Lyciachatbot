@@ -41,7 +41,7 @@ async def inline_query_handler(client, query):
                 await client.answer_inline_query(
                     query.id,
                     results=answers,
-                    switch_pm_text='Lycia | Chat [text]',
+                    switch_pm_text='Ledy | Chat [text]',
                     switch_pm_parameter='lycia',
                 )
                 return
@@ -64,7 +64,7 @@ async def lyciachatbot(answers, text):
     ))
     caption = f"""
 **You:** `{text}`
-**Lycia:** `{result['message']}`"""
+**Ledy:** `{result['message']}`"""
     answers.append(
         InlineQueryResultPhoto(
             photo_url="https://telegra.ph/file/4fd47f6ab742a28b5e57c.jpg",
